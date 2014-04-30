@@ -1,32 +1,11 @@
-# ProjectBuildTools
-
-TODO: Write a gem description
-
-## Installation
-
-Add this line to your application's Gemfile:
-
-    gem 'project_build_tools'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install project_build_tools
-
-## Usage
+## 安装
+```
+  wget http://github.com/mindpin/project_build_tools/raw/master/project_build_tools-0.0.1.gem
+  gem install project_build_tools-0.0.1.gem
+```
+## 使用
 
 ```
   # 生成 sinatra 工程
-  pbtools sinatra $name
+  pbtools sinatra $project_name
 ```
-
-## Contributing
-
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
