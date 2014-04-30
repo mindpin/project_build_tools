@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require 'project_build_tools'
+ProjectBuildTools.run(ARGV)

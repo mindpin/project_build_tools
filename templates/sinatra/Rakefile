@@ -1,0 +1,4 @@
+APP_FILE  = 'lib/app.rb'
+APP_CLASS = '!{ProjectName}App'
+
+require 'sinatra/assetpack/rake'
